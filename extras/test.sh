@@ -12,16 +12,16 @@ sleep 1
 
 luvit uv.lua &
 t
-echo above: uv
+echo above: uv ; echo
 
 luvit luvit.lua &
 t
-echo above: luvit
+echo above: luvit ; echo
 
 luvit coro-http.lua &
 t
-echo above: coro-http
+echo above: coro-http ; echo
 
 luvit weblit.lua &
 t
-echo above: weblit
+echo above: weblit ; echo
